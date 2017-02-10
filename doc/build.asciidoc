@@ -32,8 +32,8 @@ later and at <<configuration_step,configuration step>> choose `v110_xp`
 toolset in CMake using `-T` switch (support since CMake 2.8.11, known to
 work with `Visual Studio` generators).
 
-Notes on Building IDA Plug-In
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Notes on Building the Hex Rays IDA Plug-In
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. The following additional package is required to build IDA plug-in:
 
@@ -65,6 +65,40 @@ CXX=g++ CC=gcc ./configure -qtnamespace QT -platform linux-g++-32 -debug-and-rel
 one used by IDA. Otherwise, you will end up linked against debug Qt
 library, while IDA uses the release version. Nothing good comes out of
 this.
+
+Notes on Installing the Eclipse IDE Plugin
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Download the _Eclipse C/C++ IDE_ for your specific operating system,
+
+   * https://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers
+   
+2. Unzip the eclipse-cpp.zip corrisponding to your operating system and architecture into your desired directory,
+
+3. Run _eclipse.exe_
+
+4. Click on _"Help > Install New Software..."_,
+
+5. Click on button _"Add..."_ to add an new repository,
+
+6. In the Add Repository dialog that appears, click the Archive button next to the Location field,
+
+7. Select Snowman-Eclipse plugin file and click OK,
+
+Notes on Configuring the Eclipse IDE Plugin
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Click on _"Window > Preferences > C/C++ > Decompiler"_
+
+Notes on Uninstalling the Eclipse IDE Plugin
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Click on _"Help > About Eclipse > Installation Details"_,
+
+2. Select _"Snowman-Eclipse Plug-in"_,
+
+3. Click on _"Uninstall..."_.
+
 
 Building
 --------
