@@ -66,8 +66,8 @@ one used by IDA. Otherwise, you will end up linked against debug Qt
 library, while IDA uses the release version. Nothing good comes out of
 this.
 
-Notes on Installing the Eclipse IDE Plugin
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Notes on Installing the Eclipse IDE Plug-In
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Download the _Eclipse C/C++ IDE_ for your specific operating system,
 
@@ -85,13 +85,13 @@ Notes on Installing the Eclipse IDE Plugin
 
 7. Select Snowman-Eclipse plugin file and click OK,
 
-Notes on Configuring the Eclipse IDE Plugin
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Notes on Configuring the Eclipse IDE Plug-In
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Click on _"Window > Preferences > C/C++ > Decompiler"_
 
-Notes on Uninstalling the Eclipse IDE Plugin
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Notes on Uninstalling the Eclipse IDE Plug-In
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Click on _"Help > About Eclipse > Installation Details"_,
 
