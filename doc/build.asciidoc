@@ -71,7 +71,7 @@ Notes on Installing the Eclipse IDE Plug-In
 
 1. Download the _Eclipse C/C++ IDE_ for your specific operating system,
 
-   * https://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers
+   * https://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon2
    
 2. Unzip the eclipse-cpp.zip corrisponding to your operating system and architecture into your desired directory,
 
