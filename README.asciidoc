@@ -1,9 +1,6 @@
 Snowman
 =======
 
-<img align="right" src="http://i.imgur.com/quyShBK.png" height="320" width="320">
-# Snowman Decompiler [![Development Server Invite](https://img.shields.io/badge/Join-Discord4J-7289DA.svg?style=flat-square)](https://discord.gg/NxGAeCY)
-
 http://derevenets.com/[Snowman] is a native code to C/C++ decompiler, supporting x86, AMD64, ARM and MIPS (experimental) architectures.
 You can use it as a standalone GUI application, command-line tool, Hex Rays IDA plug-in, Eclipse IDE plug-in, or a library, Snowman is link:doc/licenses.asciidoc[free software].
 
